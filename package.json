@@ -1,0 +1,39 @@
+{
+  "name": "react-carousel-liron",
+  "version": "1.0.22",
+  "description": "A react carousel",
+  "main": "build/index.js",
+  "author": {
+    "name": "Liron Weiner",
+    "email": "lironweiner10@gmail.com"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-transition-group": "^2.5.3",
+    "webpack": "^4.29.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.3"
+  }
+}

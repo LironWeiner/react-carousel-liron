@@ -1,0 +1,90 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Container div {
+  text-align: center;
+  margin: auto 5px;
+}
+
+.rightArrow i,
+.leftArrow i {
+  border: solid rgba(189, 189, 189, 0.747);
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+}
+.leftArrow i {
+  transform: rotate(135deg);
+}
+.rightArrow i {
+  transform: rotate(-45deg);
+}
+.leftArrow i:hover,
+.rightArrow i:hover {
+  transition: 0.1s all;
+  border-color: rgba(105, 105, 105, 0.856);
+}
+
+.slideContainer div {
+  direction: rtl;
+}
+.slideContainer img {
+  height: 50%;
+  width: 50%;
+}
+/* .slideContainer img {
+  width: 80px;
+  border-radius: 40px;
+} */
+.slideContainer h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #75b04b;
+}
+.slideContainer h6 {
+  color: rgb(149, 149, 149);
+  font-weight: 600;
+}
+
+.slideContainer p {
+  font-size: 1.2em;
+  color: rgb(126, 123, 123);
+}
+
+.slideContainer ol {
+  margin: auto;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.slideContainer li {
+  margin: 5px;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  width: 8px;
+  height: 8px;
+}
+.slideContainer li:hover {
+  background: rgb(139, 139, 139);
+}
+.active {
+  background: lightgrey;
+}
+
+.slideContainerEnter {
+  opacity: 0;  
+  transition: 1s all;
+}
+.slideContainerEnterDone { 
+  opacity: 1;
+}
+@media only screen and (max-width: 1300px) {
+  .Container {
+    margin: auto;
+  }
+}
+
